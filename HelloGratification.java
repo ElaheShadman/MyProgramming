@@ -77,7 +77,7 @@ public class InstantGrat {
             "Why do Java developers wear glasses? Because they can't C#.",
             "A SQL query walks into a bar, sees two tables and asks: 'Can I join you?'"
         };
-        System.out.println(YELLOW + "😄 " + jokes[R.nextInt(jokes.length)] + RESET);
+        System.out.println(YELLOW + "😄haha " + jokes[R.nextInt(jokes.length)] + RESET);
     }
 
     static void asciiArt() {
