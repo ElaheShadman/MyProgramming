@@ -1,5 +1,5 @@
 
-public class starArt {
+public class TannenBaum {
     public static void main(String[] args) {
 
         // 1) Small centered shape (plus on top, then stars)

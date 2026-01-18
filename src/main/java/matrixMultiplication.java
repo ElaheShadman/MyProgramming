@@ -1,5 +1,4 @@
-
-public class MatrixMultiplication {
+public class matrixMultiplication {
     public static void main(String[] args) {
         int[][] A = {
                 {1, 2, 3},
@@ -22,5 +21,20 @@ public class MatrixMultiplication {
         for (int i = 0; i < rowsA; i++) {
             for (int j = 0; j < colsB; j++) {
                 int sum = 0;
-                for (int k = 0; k < colsA; k++) {   // or k < B.length
+                for (int k = 0; k < colsA; k++) {
                     sum += A[i][k] * B[k][j];
+                }
+                C[i][j] = sum;
+            }
+        }
+
+        // Print result matrix
+        System.out.println("Result of A x B:");
+        for (int i = 0; i < C.length; i++) {
+            for (int j = 0; j < C[0].length; j++) {
+                System.out.print(C[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+}
