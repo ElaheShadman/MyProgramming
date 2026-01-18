@@ -7,7 +7,7 @@ public class StarArt {
         // Top half
         for (int i = 0; i < 5; i++) {
             printStars(leftStars - i);          // left stars
-            printSpaces(2 + i * 3);             // middle expanding spaces
+            printSpaces(2 + i * 2);             // middle expanding spaces
             printStars(rightStars - i);         // right stars (straight)
             System.out.println();
         }
@@ -15,7 +15,7 @@ public class StarArt {
         // Bottom half
         for (int i = 4; i >= 0; i--) {
             printStars(leftStars - i);
-            printSpaces(2 + i * 3);
+            printSpaces(2 + i * 2);
             printStars(rightStars - i);
             System.out.println();
         }
